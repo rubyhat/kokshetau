@@ -21,11 +21,11 @@ $(document).ready(function () {
   ymaps.ready(function () {
     let kokshetau_map;
     kokshetau_map = new ymaps.Map("yandex_map", {
-      center: [54.900073, 69.142294],
+      center: [53.301041, 69.391846],
       zoom: 17
     });
 
-    let myPlacemark = new ymaps.Placemark([54.900135, 69.142201], {}, {
+    let myPlacemark = new ymaps.Placemark([53.301041, 69.391546], {}, {
       iconLayout: 'default#image',
       iconImageHref: '/img/icons/map-pin.svg',
       iconImageSize: [32, 32],
